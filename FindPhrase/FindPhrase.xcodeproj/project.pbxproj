@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		AEA6712F21BD7246001512BD /* FindPhrase */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FindPhrase; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEA6713221BD7246001512BD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AEA6713921BD8C6B001512BD /* main.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = main.hpp; sourceTree = "<group>"; };
+		AEBED53421C56AB500640309 /* Individu.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Individu.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				AEA6713221BD7246001512BD /* main.cpp */,
+				AEA6713921BD8C6B001512BD /* main.hpp */,
+				AEBED53421C56AB500640309 /* Individu.hpp */,
 			);
 			path = FindPhrase;
 			sourceTree = "<group>";
@@ -241,6 +245,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7RA755DD97;
+				HEADER_SEARCH_PATHS = /Users/Raph/Documents/Gamagora/IA/AlgoGen/FindPhrase/FindPhrase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -250,6 +255,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7RA755DD97;
+				HEADER_SEARCH_PATHS = /Users/Raph/Documents/Gamagora/IA/AlgoGen/FindPhrase/FindPhrase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

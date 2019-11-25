@@ -79,12 +79,12 @@ int main()
         }
         
         population = newGeneration;
-        if (generation % 1000 == 0)
+        if (generation % 10000 == 0)
         {
             cout << "Génération : \033[1;33m" << generation << "\033[0m" << endl;
             cout << "String: " << population[0].GetChromosome() << endl;
             cout << "Fitness: " << population[0].GetFitness() << endl << endl;
-        }else if (generation % 100 == 0)
+        }else if (generation % 1000 == 0)
         {
             cout << "Génération : \033[1;31m" << generation << "\033[0m" << endl;
             cout << "String: " << population[0].GetChromosome() << endl;

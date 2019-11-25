@@ -18,7 +18,7 @@ using std::string;
 mt19937 rng(0); // Seed
 uniform_int_distribution<int> genesValide(32, 255); // uniform, unbiased
 //const string K_STRING_TO_FIND = "Fuck fucking fucked fucker fucking fuckups fuck fucking fucked fucking fuckup fucking fucker's fucking fuckup.";
-const string K_STRING_TO_FIND = "Ceci est une phrase totallement lambda qui à pour but de voir comment se comporte le K_PERCENT_NEW avec une autre phrase que l'exemple en anglais.";
+const string K_STRING_TO_FIND = "Bien sûr, dit le renard. Tu n'es encore pour moi qu'un petit garçon tout semblable à cent mille petits garçons. Et je n'ai pas besoin de toi. Et tu n'as pas besoin de moi non plus. Je ne suis pour toi qu'un renard semblable à cent mille renards. Mais, si tu m'apprivoises, nous aurons besoin l'un de l'autre. Tu seras pour moi unique au monde. Je serai pour toi unique au monde";
 //const string K_STRING_TO_FIND = "Mais au lieu de la simplicité, c'est le faste que je mettais au plus haut rang, si, après que j'avais forcé Françoise, qui n'en pouvait plus et disait que les jambes \" lui rentraient \", à faire les cent pas pendant une heure, je voyais enfin, débouchant de l'allée qui vient de la Porte Dauphine - image pour moi d'un prestige royal, d'une arrivée souveraine telle qu'aucune reine véritable n'a pu m'en donner l'impression dans la suite";
 const int K_INDIVIDUS_PAR_GENERATION = 100;
 const double K_MUTATE_PROB = .1;
